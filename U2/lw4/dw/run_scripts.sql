@@ -1,0 +1,9 @@
+BEGIN
+   pkg_etl_store_dw_stage.load_stores_dw;
+   pkg_etl_customers_dw_stage.load_customers_dw;
+   pkg_etl_products_dw_stage.load_products_dw;
+   pkg_etl_periods_dw_stage.load_period_data;
+   pkg_etl_dw_promotion_def.load_PROMOTION_types;
+   pkg_etl_dw_promotion_def.load_PROMOTION_hist;
+   pkg_etl_transaction_dw.load_transaction_dw;
+END;
