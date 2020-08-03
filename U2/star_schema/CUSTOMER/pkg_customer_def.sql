@@ -1,0 +1,5 @@
+CREATE OR REPLACE PACKAGE pkg_customers
+AS  
+  PROCEDURE load_CLEAN_CUSTOMER;
+  PROCEDURE load_CUSTOMERS_DW;
+END pkg_customers;

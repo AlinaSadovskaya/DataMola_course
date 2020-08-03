@@ -1,0 +1,8 @@
+CREATE OR REPLACE PACKAGE pkg_promotions
+AS 
+ PROCEDURE load_CLEAN_GEN_PROMOTION_DATA ;
+ PROCEDURE load_PROMOTION_types;
+ PROCEDURE load_PROMOTION_hist;
+ PROCEDURE load_PROMOTION_dim;
+ 
+END pkg_promotions;
